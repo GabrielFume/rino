@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <title>RINOPLASTIA</title>
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Gabriel Arzola">
 
     <!-- mobile specific metas
     ================================================== -->
@@ -54,51 +54,7 @@
     </noscript>
         <!-- End Facebook Pixel Code -->
     <style>
-        .tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-        }
-
-            /* Tooltip text */
-        .tooltip .tooltiptext {
-            visibility: hidden;
-            width: 90%;
-            background-color: #555;
-            color: #fff;
-            text-align: center;
-            padding: 5px 0;
-            border-radius: 6px;
-
-            /* Position the tooltip text */
-            position: absolute;
-            z-index: 1;
-            bottom: 125%;
-            left: 50%;
-            margin-left: -60px;
-
-            /* Fade in tooltip */
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
-
-        /* Tooltip arrow */
-        .tooltip .tooltiptext::after {
-            content: "";
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            margin-left: -5px;
-            border-width: 5px;
-            border-style: solid;
-            border-color: #555 transparent transparent transparent;
-        }
-
-        /* Show the tooltip text when you mouse over the tooltip container */
-        .tooltip:hover .tooltiptext {
-            visibility: visible;
-            opacity: 1;
-        }
+        
     </style>
 
 </head>
@@ -273,20 +229,33 @@
 
                 <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
                     <fieldset>
-    
-                    <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Correo electronico" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    
+                    <div class="mc-field-group">
+                    
+                        <input type="email" value="" name="EMAIL" placeholder="Correo electronico" class="required email" id="mce-EMAIL" class="full-width">
                     </div>
+                    <div class="mc-field-group">
+                        <input type="text" value="" name="FNAME" placeholder="Nombre" class="" id="mce-FNAME" class="full-width">
+                    </div>
+                    <div class="mc-field-group">
+                        <input type="text" value="" name="LNAME" placeholder="Apellido" class="" id="mce-LNAME" class="full-width">
+                    </div>
+
+
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                
+                    <div aria-hidden="true"><input type="text" name="b_d6fcfc472d45f1c7f330d4ce5_7eef986ece" tabindex="-1" value="">
+
+                    </div>
+                    
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="full-width btn--primary"></div>
+
+
+
                     <!-- <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Correo" value="" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Objetivo" value="" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="Mensaje" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                    </div> -->
-                    <div class="form-field">
                         <button class="full-width btn--primary">Enviar</button>
                         <div class="submit-loader">
                             <div class="text-loader">Sending...</div>
@@ -296,14 +265,14 @@
                                 <div class="bounce3"></div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
     
                     </fieldset>
                 </form>
 
                 <!-- contact-warning -->
-                <div class="message-warning">
-                    Algo salió mal. Inténtalo de nuevo.
+                <div class="message-success">
+                    Se ha subscrito correctamente.
                 </div> 
             
                 <!-- contact-success -->
@@ -325,27 +294,7 @@
                             consultorio 928 <br>
                             ASOCIACIÓN MÉDICA DE LOS ANDES. Na Bogotá
                         </p>
-
-                         . 
                     </div>
-
-                    <!-- <div class="cinfo">
-                        <h5>Nuestro Correo</h5>
-                        <p>
-                            contact@gabrielarzola.com<br>
-                            info@gabrielarzola.com
-                        </p>
-                    </div>
-
-                    <div class="cinfo">
-                        <h5>Llamanos</h5>
-                        <p>
-                            Local: (+58) 555 555<br>
-                            Movil: (+58) 555 555<br>
-                            Fax: (+58) 555 555
-                        </p>
-                    </div> -->
-
                     <ul class="contact-social">
                         <li>
                             <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -364,6 +313,9 @@
         </div> <!-- end contact-content -->
 
     </section> <!-- end s-contact -->
+
+    <!-- Begin MailChimp Signup Form -->
+
 
 
     <!-- photoswipe background
