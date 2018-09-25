@@ -338,7 +338,7 @@
                 $.ajax({
     
                     type: "POST",
-                    url: "https://ciruestetic.us19.list-manage.com/subscribe/post?u=d6fcfc472d45f1c7f330d4ce5&amp;id=7eef986ece",
+                    url: "https://ciruestetic.us19.list-manage.com/subscribe/post?u=d6fcfc472d45f1c7f330d4ce5&amp;id=820fe96db1",
                     data: $(form).serialize(),
                     beforeSend: function() { 
     
