@@ -1402,6 +1402,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .form-cont input{
         background-color: white;border-radius: 100px;width: 100%;text-align: center;
     }
+
+    .dev{
+        font-size: 15px;
+        padding-left: 45%;
+        color: #868686;
+    }
+
+    .dev a{
+        color: #868686;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1412,11 +1422,31 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .form-cont{
         width: 70%
     }
+
+    .dev{
+        font-size: 15px;
+        padding-left: 45%;
+        color: #868686;
+    }
+
+    .dev a{
+        color: #868686;
+    }
 }
 
 @media only screen and (max-width: 900px) {
     .section-header {
         max-width: 700px;
+    }
+
+    .dev{
+        font-size: 15px;
+        padding-left: 40%;
+        color: #868686;
+    }
+
+    .dev a{
+        color: #868686;
     }
 }
 
@@ -1430,6 +1460,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .form-cont{
         width: 80%
     }
+
+    .dev{
+        font-size: 15px;
+        padding-left: 35%;
+        color: #868686;
+    }
+
+    .dev a{
+        color: #868686;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1442,6 +1482,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
     .form-cont{
         width: 100%
+    }
+
+    .dev{
+        font-size: 15px;
+        padding-left: 30%;
+        color: #868686;
+    }
+
+    .dev a{
+        color: #868686;
     }
 }
 
